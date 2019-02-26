@@ -27,4 +27,4 @@ To follow this guide you will need to have the following in place
 - Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#v2)
 - Visual Studio Code IDE (you don't actually *need* this)*
 
-/* 
+***
