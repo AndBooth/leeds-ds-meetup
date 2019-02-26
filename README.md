@@ -31,3 +31,5 @@ To follow this guide you will need to have the following in place
 **To deply to Azure**
 - All of the above
 - Install the Azure [Command-line Interface](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+
+\* You don't have to use Visual Studio Code but it has some tools that I find make the deployment process run a bit smoother
