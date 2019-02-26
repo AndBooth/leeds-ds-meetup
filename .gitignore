@@ -1,2 +1,3 @@
 Data/imdb_master.csv
-azurefunctiontest/sentimentpredictor/*.pkl
+
+azurefunctions/sentimentpredictor/*.pkl
