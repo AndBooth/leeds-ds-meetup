@@ -78,6 +78,10 @@ py -3.6 -m venv .env
 .env\scripts\activate
 ```
 
+For the final part to work, the deployment, you must have the Azure Functions Core Tools installed. If they are it should now simply be a case of running the command
 
+```cmd
+func host start
+```
 
 
