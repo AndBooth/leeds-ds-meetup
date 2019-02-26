@@ -42,6 +42,8 @@ You can create, run and test a Python Azure Function locally without an Azure su
 
 ## Install the Azure Functions extension in VS Code
 
+The Azure Functions extension in VS Code provides some functionality that makes automates some of the tasks, such as creating an Azure Functions project and Azure Function templates.
+
 
 
 
