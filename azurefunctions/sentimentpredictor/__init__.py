@@ -39,5 +39,8 @@ def main(req: func.HttpRequest):
     comment_vec = vectorizer.transform(comment)
 
     sentiment = model.predict(comment_vec)
+    keys = ["Comment {} sentiment".format(i) for i in range(1, len(sentiment)+1)]
 
-    return json.dumps(sentiment.tolist())
+    output = dict(zip(keys, sentiment))
+    
+    return json.dumps(output)
