@@ -65,4 +65,4 @@ You will be prompted to
 2. Choose a trigger template - choose HttpTrigger
 3. Choose a name for the function
 
-Once this is done you will see that a new folder has been created with the name you chose in step 3 above. Look inside and you will see a file called **__init__.py**. This file contains the code for your function and is actually fully ready to be deployed, whether locally or in Azure.
+Once this is done you will see that a new folder has been created with the name you chose in step 3 above. Look inside and you will see a file called **\_\_init\_\_.py**. This file contains the code for your function and is actually fully ready to be deployed, whether locally or in Azure.
