@@ -66,3 +66,15 @@ You will be prompted to
 3. Choose a name for the function
 
 Once this is done you will see that a new folder has been created with the name you chose in step 3 above. Look inside and you will see a file called **\_\_init\_\_.py**. This file contains the code for your function and is actually fully ready to be deployed, whether locally or in Azure.
+
+## Deploy locally
+
+Open Command Prompt and change your current directory to the one that was created when you created the Azure Functions project (the directory above the one containing the **\_\_init.py\_\_** file created in the last step).
+
+You will need to create a Python virtual environment to work in, which is done as follows
+
+```cmd
+this
+```
+
+
