@@ -29,7 +29,7 @@ To follow this guide you will need to have the following in place
 
 **To deply to Azure**
 - All of the above
-- An active Azure subscription (free)
+- An active Azure subscription (free to create)
 - Install the Azure [Command-line Interface](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 
 \* You don't have to use Visual Studio Code but it has some tools that I find make the deployment process run a bit smoother
@@ -42,9 +42,11 @@ You can create, run and test a Python Azure Function locally without an Azure su
 
 ## Install the Azure Functions extension in VS Code
 
-The Azure Functions extension in VS Code provides some functionality that makes automates some of the tasks, such as creating an Azure Functions project and Azure Function templates.
+The Azure Functions extension in VS Code provides some functionality that automates some of the tasks, such as creating an Azure Functions project and Azure Function templates.
 
+<img src="https://github.com/AndBooth/leeds-ds-meetup/blob/master/Misc/Images/azurefunctionsextension.PNG" width="450" height="200">
 
+Once installed we can get straight into creating our first locally deployed Azure Function. 
 
 
 
