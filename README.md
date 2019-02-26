@@ -13,5 +13,8 @@ However, it is not intended as a guide to creating full production, enterprise r
 
 This how-to guide is a collated and abridged version of multiple sources, including Microsoft documentation and the Github repos of one of the developers of the Python Azure Functions worker. For further reading and information you can find these at the following linkes
 
-- This
+- [Azure Functions Python developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python)
+- [Create you first Python function in Azure](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-python#create-a-function)
+- [Create your first function using Visual Studio Code](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-vs-code)
+- [Asavari Tayal's github](https://github.com/asavaritayal?utf8=%E2%9C%93&tab=repositories&q=&type=&language=python)
 
