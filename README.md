@@ -9,4 +9,9 @@ I have found that the main difficulty in getting this to work lies in ensuring t
 
 However, it is not intended as a guide to creating full production, enterprise ready software, so it should not be used with that intention.
 
-This how-to guide is a collated and abridged version of multiple sources, including Microsoft documentation and   
+## Sources
+
+This how-to guide is a collated and abridged version of multiple sources, including Microsoft documentation and the Github repos of one of the developers of the Python Azure Functions worker. For further reading and information you can find these at the following linkes
+
+- This
+
