@@ -56,5 +56,7 @@ Setup of the project will take a little while, once complete you will see that a
 
 ## Create an Azure Function
 
+We can now create our first Azure Function. This is very easy; the Azure Functions extension provides templates that provide everything we need. In this guide I am just going to show how to create and run one of these template functions but look out for updates when I will show how to do it for our own function, servicing a machine learning model.
+
 
 
