@@ -71,10 +71,13 @@ Once this is done you will see that a new folder has been created with the name 
 
 Open Command Prompt and change your current directory to the one that was created when you created the Azure Functions project (the directory above the one containing the **\_\_init.py\_\_** file created in the last step).
 
-You will need to create a Python virtual environment to work in, which is done as follows
+You will need to create a Python virtual environment to work in and then activate, which is done as follows in Command Prompt
 
 ```cmd
-this
+py -3.6 -m venv .env
+.env\scripts\activate
 ```
+
+
 
 
