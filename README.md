@@ -60,3 +60,9 @@ We can now create our first Azure Function. This is very easy; the Azure Functio
 
 <img src="https://github.com/AndBooth/leeds-ds-meetup/blob/master/Misc/Images/createazfun.PNG">
 
+You will be prompted to
+1. Choose the location of the Function App - this is where the code will be created
+2. Choose a trigger template - choose HttpTrigger
+3. Choose a name for the function
+
+Once this is done you will see that a new folder has been created with the name you chose in step 3 above. Look inside and you will see a file called **__init__.py**. This file contains the code for your function and is actually fully ready to be deployed, whether locally or in Azure.
