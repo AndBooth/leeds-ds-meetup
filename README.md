@@ -78,10 +78,18 @@ py -3.6 -m venv .env
 .env\scripts\activate
 ```
 
-For the final part to work, the deployment, you must have the Azure Functions Core Tools installed. If they are it should now simply be a case of running the command
+For the final part to work, the deployment, you must have the Azure Functions Core Tools installed. If they are it should now simply be a case of running the command below to test the function locally
 
 ```cmd
 func host start
 ```
+
+If successful you should see the following output to your Command Prompt window.
+
+<img src="https://github.com/AndBooth/leeds-ds-meetup/blob/master/Misc/Images/azfunslocal1.PNG">
+
+<img src="https://github.com/AndBooth/leeds-ds-meetup/blob/master/Misc/Images/azfunslocal2.PNG">
+
+
 
 
