@@ -1,7 +1,7 @@
 # Leeds Data Science
 Repository for code and documents from Leeds Data Science meetup talk
 
-# Productinise Python ML models with Azure Functions how-to guide
+# Productionise Python ML models with Azure Functions how-to guide
 
 We can use Azure Functions to deploy a machine learning model that has been developed in Python as an API. Once the API is created we can ask the model to make predictions on new data by sending it a request.
 
@@ -22,6 +22,9 @@ This how-to guide is a collated and abridged version of multiple sources, includ
 
 To follow this guide you will need to have the following in place
 
-- **To create and test functions locally**
+**To create and test functions locally**
 - Installation of Python 3.6
 - Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#v2)
+- Visual Studio Code IDE (you don't actually *need* this)*
+
+* 
