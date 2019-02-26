@@ -23,7 +23,7 @@ This how-to guide is a collated and abridged version of multiple sources, includ
 To follow this guide you will need to have the following in place
 
 **To create and test functions locally**
-- An active Azure subscription
+- An active Azure subscription (free)
 - Installation of Python 3.6
 - Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#v2)
 - Visual Studio Code IDE (you don't actually *need* this)*
