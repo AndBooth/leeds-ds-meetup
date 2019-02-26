@@ -46,9 +46,11 @@ The Azure Functions extension in VS Code provides some functionality that automa
 
 <img src="https://github.com/AndBooth/leeds-ds-meetup/blob/master/Misc/Images/azurefunctionsextension.PNG" width="450" height="200">
 
-Once installed we can get straight into creating our first locally deployed Azure Function. The first thing to do is to create an Azure Functions project.
+## Create an Azure Functions project
+
+Once installed we can get straight into creating our first locally deployed Azure Function. The first thing to do is to create an Azure Functions project. If you select the two buttons in the image below you will then be prompted to choose a directory where your function app will be stored and asked to choose a language, choose a folder and then choose Python.
 
 <img src="https://github.com/AndBooth/leeds-ds-meetup/blob/master/Misc/Images/setupazfun.PNG">
 
-
+Setup of the project will take a little while, once complete you will see that 
 
