@@ -46,8 +46,9 @@ The Azure Functions extension in VS Code provides some functionality that automa
 
 <img src="https://github.com/AndBooth/leeds-ds-meetup/blob/master/Misc/Images/azurefunctionsextension.PNG" width="450" height="200">
 
-Once installed we can get straight into creating our first locally deployed Azure Function. 
+Once installed we can get straight into creating our first locally deployed Azure Function. The first thing to do is to create an Azure Functions project.
 
+<img src="https://github.com/AndBooth/leeds-ds-meetup/blob/master/Misc/Images/azurefunctionsextension.PNG" width="450" height="200">
 
 
 
