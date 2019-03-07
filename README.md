@@ -90,6 +90,14 @@ If successful you should see the following output to your Command Prompt window.
 
 <img src="https://github.com/AndBooth/leeds-ds-meetup/blob/master/Misc/Images/azfunslocal2.PNG">
 
+You can test a function by entering the URL in your browser. If you've used the HttpTrigger template function you'll want to enter something such as 
 
+```
+http://localhost:7071/api/newfunction?name=World
+```
+which should give you the response
+```
+Hello World!
+```
 
 
