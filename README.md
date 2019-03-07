@@ -100,4 +100,14 @@ which should give you the response
 Hello World!
 ```
 
+# Deploy to the cloud
+
+Now for the interesting bit! By deploying our function locally we've been able to test that it actually works, but now we want to deploy it to the cloud so that other people can use it. How do we do that?
+
+## Create an Azure function app in Azure
+
+The function app provides an environment for executing the function code and makes it easier to manage and deploy them as a unit. Within a function app you can have multiple individual functions.
+
+To carry out these steps you will need to have the Azure
+
 
