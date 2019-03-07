@@ -73,14 +73,14 @@ Open Command Prompt and change your current directory to the one that was create
 
 You will need to create a Python virtual environment to work in and then activate, which is done as follows in Command Prompt
 
-```cmd
+```
 py -3.6 -m venv .env
 .env\scripts\activate
 ```
 
 For the final part to work, the deployment, you must have the Azure Functions Core Tools installed. If they are it should now simply be a case of running the command below to test the function locally
 
-```cmd
+```
 func host start
 ```
 
@@ -108,6 +108,28 @@ Now for the interesting bit! By deploying our function locally we've been able t
 
 The function app provides an environment for executing the function code and makes it easier to manage and deploy them as a unit. Within a function app you can have multiple individual functions.
 
-To carry out these steps you will need to have the Azure
+To carry out these steps you will need to have the Azure CLI installed and an active Azure subscription. 
+
+From the command line you will need to run the following set of commands.
+
+If you have more than one Azure subscription that you can work with, set to the one that you want to deply to.
+
+```
+az account set -s <subscription_id>
+```
+Create a resource group under which you'll create the resources required to get you function deployed.
+```
+az group create --name myResourceGroup --location westeurope
+```
+You will need a storage account that stores information about your functions. Give a unique name `<storage_name>` and assign to your previously created resource group.
+```
+az storage account create --name <storage_name> --location westeurope --resource-group myResourceGroup --sku Standard_LRS
+```
+
+```
+az functionapp create --resource-group myResourceGroup --os-type Linux \
+--consumption-plan-location westeurope  --runtime python \
+--name <app_name> --storage-account  <storage_name>
+```
 
 
